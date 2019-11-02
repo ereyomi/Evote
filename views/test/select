@@ -1,0 +1,1 @@
+SELECT party_abbreviation, SUM(party_score) FROM `announced_pu_results` WHERE polling_unit_uniqueid IN(8, 9) GROUP BY party_abbreviation
